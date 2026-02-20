@@ -120,6 +120,7 @@
           </div>
         </div>
       </div>
+      <NewsletterBox />
     </div>
   </section>
 </template>
