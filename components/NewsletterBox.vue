@@ -1,6 +1,6 @@
 <template>
   <div class="text-center py-20">
-    <p class="text-2xl font-medium text-gray-800">
+    <p class="lg:text-2xl text-xl font-medium text-gray-800">
       Subscribe now & get 20% off
     </p>
     <p class="text-gray-400 mt-3">

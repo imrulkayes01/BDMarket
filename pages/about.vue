@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-[1280px] mx-auto px-6 py-8 lg:py-24 border-t">
+  <section class="max-w-[1280px] mx-auto px-6 py-8 lg:py-12 border-t">
     <!-- ABOUT US SECTION -->
     <div class="text-2xl text-center pt-8">
       <div class="inline-flex gap-2 items-center mb-3">
@@ -13,7 +13,7 @@
     <div class="my-10 flex flex-col md:flex-row gap-16">
       <!-- LEFT IMAGE -->
       <img
-        :src="aboutImage"
+        src="../photo/about_img-BAJyTXw9.png"
         alt="About Forever"
         class="w-full md:max-w-[450px] object-cover"
       />
@@ -45,7 +45,7 @@
     </div>
 
     <!-- WHY CHOOSE US SECTION -->
-    <div class="text-xl py-4">
+    <div class="text-2xl py-4">
       <div class="inline-flex gap-2 items-center mb-3">
         <p class="text-gray-500">
           WHY <span class="text-gray-700 font-medium">CHOOSE US</span>
@@ -87,14 +87,5 @@
       </div>
     </div>
     <NewsletterBox />
-  </div>
+  </section>
 </template>
-
-<script setup>
-const images = import.meta.glob("../photo/*.png", {
-  eager: true,
-  import: "default",
-});
-
-const aboutImage = images["../photo/about_img-BAJyTXw9.png"];
-</script>
