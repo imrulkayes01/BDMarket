@@ -2,51 +2,71 @@
   {
     "name": "Women Round Neck Cotton Top",
     "price": 150,
-    "image": "bjybd8.png"
+    "image": "bjybd8.png",
+    "category": "Women",
+    "type": "Topwear"
   },
   {
     "name": "Men Round Neck Pure Cotton T-shirt",
     "price": 200,
-    "image": "cj2.png"
+    "image": "cj2.png",
+    "category": "Men",
+    "type": "Topwear"
   },
   {
     "name": "Girls Round Neck Cotton Top",
     "price": 220,
-    "image": "cjhqd9.png"
+    "image": "cjhqd9.png",
+    "category": "Kids",
+    "type": "Topwear"
   },
   {
     "name": "Men Round Neck Pure Cotton T-shirt",
     "price": 110,
-    "image": "dyfwx5.png"
+    "image": "dyfwx5.png",
+    "category": "Men",
+    "type": "Topwear"
   },
   {
     "name": "Women Round Neck Cotton Top",
     "price": 130,
-    "image": "jivgy4.png"
+    "image": "jivgy4.png",
+    "category": "Women",
+    "type": "Topwear"
   },
   {
     "name": "Girls Round Neck Cotton Top",
     "price": 140,
-    "image": "km3.png"
+    "image": "km3.png",
+    "category": "Kids",
+    "type": "Topwear"
   },
   {
     "name": "Men Tapered Fit Flat-Front Trousers",
     "price": 190,
-    "image": "pdf10.png"
+    "image": "pdf10.png",
+    "category": "Men",
+    "type": "Bottomwear"
   },
   {
     "name": "Men Round Neck Pure Cotton T-shirt",
     "price": 140,
-    "image": "pvpga1.png"
+    "image": "pvpga1.png",
+    "category": "Men",
+    "type": "Topwear"
   },
   {
     "name": "Girls Round Neck Cotton Top",
     "price": 100,
-    "image": "sa6.png"
+    "image": "sa6.png",
+    "category": "Kids",
+    "type": "Topwear"
   },
   {
     "name": "Men Tapered Fit Flat-Front Trousers",
     "price": 110,
-    "image": "ysv7.png"
+    "image": "ysv7.png",
+    "category": "Men",
+    "type": "Bottomwear"
   }
 ]
