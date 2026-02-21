@@ -50,7 +50,9 @@
     </h2>
 
     <!-- 4 items per row on large screens, slightly larger cards -->
-    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 lg:gap-8">
+    <div
+      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 lg:gap-8"
+    >
       <div
         v-for="product in products"
         :key="product.name"
@@ -58,7 +60,7 @@
       >
         <!-- Bigger image, show full picture without cropping -->
         <div
-          class="w-full h-64 md:h-72 flex items-center justify-center bg-white overflow-hidden rounded-lg"
+          class="w-full h-56 md:h-64 flex items-center justify-center bg-white overflow-hidden rounded-lg"
         >
           <img
             :src="product.image"
@@ -102,7 +104,7 @@
         >
           <!-- Image with hover zoom -->
           <div
-            class="w-full h-64 md:h-72 flex items-center justify-center bg-white overflow-hidden rounded-lg"
+            class="w-full h-56 md:h-64 flex items-center justify-center bg-white overflow-hidden rounded-lg"
           >
             <img
               :src="product.image"

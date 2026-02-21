@@ -113,7 +113,7 @@
         <!-- Products Grid -->
         <div
           v-if="filteredProducts.length > 0"
-          class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-6 gap-y-10"
+          class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-5 gap-x-6 gap-y-10"
         >
           <div
             v-for="product in filteredProducts"
@@ -134,7 +134,7 @@
               <h3 class="text-sm text-gray-800 leading-tight">
                 {{ product.name }}
               </h3>
-              <p class="text-sm font-semibold text-gray-900">
+              <p class="text-lg font-semibold text-blue-600">
                 ${{ product.price }}
               </p>
             </div>
@@ -254,6 +254,7 @@ const resetFilters = () => {
 .line-clamp-2 {
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
